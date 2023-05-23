@@ -6,8 +6,7 @@ const HomePage = () => {
     return (
         <div>
             <Header/>
-            <div class="introduction">
-                
+            <div className="introduction">
             </div>
         </div>
     )
