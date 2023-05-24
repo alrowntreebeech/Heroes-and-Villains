@@ -1,9 +1,9 @@
 import React from "react";
-import { websiteBanner } from "./header.css"; 
+import styles from './header.module.css';
 
 const Header = () => {
     return (
-        <header id="websiteBanner">
+        <header id={styles.websiteBanner}>
             <h1> Heroes and Villains - Online Shop </h1>
         </header>
     )

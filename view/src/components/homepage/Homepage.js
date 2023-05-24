@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../../features/header/Header"; 
-import "./homepage.css";
+import styles from "./homepage.module.css";
 
 const HomePage = () => {
     return (
         <div>
             <Header/>
-            <div className="introduction">
+            <div className={styles.introduction}>
             </div>
         </div>
     )
