@@ -7,10 +7,10 @@ const HomePage = () => {
     return (
         <div className={styles.homePage}>
             <Header/>
-            <div className={styles.signUp}>
+            <div className={styles.sign}>
                 <p className={styles.introduction}>A shopping website for every hero's or villain's needs.</p>
                 <p className={styles.introduction}>Please login or sign-up to browse our website...</p>
-                <div>
+                <div className={styles.buttons}>
                     <Button buttonName={"Log In"}/>
                     <Button buttonName={"Sign Up"}/>
                 </div>
