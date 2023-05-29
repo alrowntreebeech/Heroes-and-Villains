@@ -4,9 +4,11 @@ import styles from "./homepage.module.css";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className={styles.homePage}>
             <Header/>
-            <div className={styles.introduction}>
+            <div className={styles.signUp}>
+                <p className={styles.introduction}>A shopping website for every hero's or villain's needs.</p>
+                <p className={styles.introduction}>Please login or sign-up to browse our website...</p>
             </div>
         </div>
     )

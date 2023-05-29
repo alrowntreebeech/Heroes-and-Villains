@@ -1,7 +1,15 @@
-.introduction {
-    height: 87.5vh;
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.homePage {
+    height: 100vh;
     background-image: url("../../assets/heroes_and_villains_birds.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.introduction {
+    font-size: 2rem;
+    font-family: 'Bangers';
+    color: white;
 }
