@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.button {
+    font-family: 'bangers';
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;;
+}

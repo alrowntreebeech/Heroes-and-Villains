@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../features/header/Header"; 
+import Button from "../../features/buttons/Button";
 import styles from "./homepage.module.css";
 
 const HomePage = () => {
@@ -9,6 +10,10 @@ const HomePage = () => {
             <div className={styles.signUp}>
                 <p className={styles.introduction}>A shopping website for every hero's or villain's needs.</p>
                 <p className={styles.introduction}>Please login or sign-up to browse our website...</p>
+                <div>
+                    <Button buttonName={"Log In"}/>
+                    <Button buttonName={"Sign Up"}/>
+                </div>
             </div>
         </div>
     )
