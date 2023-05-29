@@ -1,3 +1,7 @@
 import React from "react";
 
-const SignInPage
+const SignUpPage = () => {
+
+};
+
+export default SignUpPage

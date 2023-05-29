@@ -9,7 +9,7 @@ const HomePage = () => {
             <Header/>
             <div className={styles.sign}>
                 <p className={styles.introduction}>A shopping website for every hero's or villain's needs.</p>
-                <p className={styles.introduction}>Please login or sign-up to browse our website...</p>
+                <p className={styles.introduction}>Please log in or sign up to browse our website...</p>
                 <div className={styles.buttons}>
                     <Button buttonName={"Log In"}/>
                     <Button buttonName={"Sign Up"}/>
