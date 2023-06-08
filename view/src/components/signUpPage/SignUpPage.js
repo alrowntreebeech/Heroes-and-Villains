@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Header from "../../features/header/Header";
+import styles from "./signUpPage.module.css";
 
 const SignUpPage = () => {
     return (
-        <p>Sign Up Page</p>
+        <div className={styles.signUpPage}>
+           <Header/>
+        </div>
     )
 };
 

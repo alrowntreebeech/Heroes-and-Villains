@@ -1,0 +1,7 @@
+.logInPage {
+    height: 100vh;
+    background-image: url("../../assets/heroes_and_villains_birds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
