@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 #websiteBanner {
+    height: 12vh;
     font-family: 'Bangers';
     font-size: 1.5rem;
     text-shadow: -2px 2px gray;
