@@ -5,3 +5,9 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.pageBody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

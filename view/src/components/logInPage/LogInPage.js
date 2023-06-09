@@ -8,7 +8,9 @@ const LogInPage = () => {
     return (
         <div className={styles.logInPage}> 
             <Header/>
-            <LoginForm/>
+            <div className={styles.pageBody}>
+                <LoginForm/>
+            </div>
         </div>
     )
 }
