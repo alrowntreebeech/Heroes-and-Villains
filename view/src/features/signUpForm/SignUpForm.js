@@ -1,8 +1,24 @@
 import React from "react";
+import styles from './signUpForm.module.css';
 
 const SignUpForm = () => {
     return (
-        <p>Sign Up Form</p>
+        <form method="post" className={styles.form}>
+            <label htmlFor="username">Enter a username:</label>
+            <input type="text" name="username" id="username" required/>
+            <label htmlFor="email">Enter a email:</label>
+            <input type="email" name="email" id="email" required/>
+            <label htmlFor="password">Enter a password:</label>
+            <input type="password" name="password" id="password" required/>
+            <label htmlFor="passwordConfirmation">Please retype your password:</label>
+            <input type="password" name="passwordConfirmation" id="passwordConfirmaion" required/>
+            <label htmlFor="hero">Are you a hero or villain?</label>
+            <select name="hero">
+                <option value="hero">Hero</option>
+                <option value="villain">Villain</option>
+            </select>
+            <input type="submit" value="Register" id={styles.submit}/>
+        </form>
     )
 };
 

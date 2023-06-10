@@ -3,7 +3,7 @@ import styles from "./loginForm.module.css";
 
 const LoginForm = () => {
     return(
-        <form method="post">
+        <form method="post" className={styles.form}>
             <label htmlFor="username">Enter your username:</label>
             <input type="text" name="username" id="username" required/><br/>
             <label htmlFor="password">Enter your password:</label>
