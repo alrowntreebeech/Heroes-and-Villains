@@ -12,7 +12,7 @@ const SignUpForm = () => {
             <input type="password" name="password" id="password" required/>
             <label htmlFor="passwordConfirmation">Please retype your password:</label>
             <input type="password" name="passwordConfirmation" id="passwordConfirmaion" required/>
-            <label htmlFor="hero">Are you a hero or villain?</label>
+            <label htmlFor="hero">Are you a hero or a villain?</label>
             <select name="hero">
                 <option value="hero">Hero</option>
                 <option value="villain">Villain</option>

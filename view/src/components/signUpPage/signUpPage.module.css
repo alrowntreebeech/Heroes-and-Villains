@@ -5,3 +5,21 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.pageBody {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.login {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

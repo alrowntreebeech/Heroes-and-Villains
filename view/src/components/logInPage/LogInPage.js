@@ -13,7 +13,7 @@ const LogInPage = () => {
                 <LoginForm/>
                 <div className={styles.register}>
                     <p>Don't have an account yet?</p>
-                    <p> Register by clicking on the button below!</p>
+                    <p>Register by clicking on the button below!</p>
                     <Link to="/register"><Button buttonName={"Sign Up"}/></Link>
                 </div>
             </div>
