@@ -6,7 +6,11 @@ const SignUpForm = () => {
         <form method="post" className={styles.form}>
             <label htmlFor="username">Enter a username:</label>
             <input type="text" name="username" id="username" required/>
-            <label htmlFor="email">Enter a email:</label>
+            <label htmlFor="firstName">Enter your first name:</label>
+            <input type="text" name="firstName" id="firstName" required/>
+            <label htmlFor="lastName">Enter your last name:</label>
+            <input type="text" name="lastName" id="lastName" required/>
+            <label htmlFor="email">Enter an email:</label>
             <input type="email" name="email" id="email" required/>
             <label htmlFor="password">Enter a password:</label>
             <input type="password" name="password" id="password" required/>
