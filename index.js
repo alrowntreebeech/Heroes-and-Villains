@@ -8,7 +8,9 @@ const port = process.env.PORT || 8000;
 
 //Request body 
 app.use(express.json());
-app.use('/api', heroRoutes);
+
+app.use('/', heroRoutes);
+
 
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);

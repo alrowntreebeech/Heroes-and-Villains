@@ -1,11 +1,11 @@
 const pool = require('./database');
 
-const createUser = (username, first_name, last_name, email, password, is_hero) => {
-    return pool.query('INSERT INTO customers VALUES ($username, $first_name, $last_name, $email, $password, $is_hero) RETURNING *', [
+const createUser = (username, first_name, last_name, primary_email, password, is_hero) => {
+    return pool.query('INSERT INTO customers  VALUES ($username, $first_name, $last_name, $primary_email, $password, $is_hero) RETURNING *', [
         username,
         first_name,
         last_name,
-        email,
+        primary_email,
         password,
         is_hero
     ])
