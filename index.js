@@ -6,6 +6,9 @@ const heroRoutes = require('./routes/heroRoutes');
 const app = express();
 const port = process.env.PORT || 8000;
 
+//Request body 
+app.use(express.json());
+
 
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);
