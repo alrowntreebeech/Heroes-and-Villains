@@ -1,11 +1,11 @@
-const {createUser} = require("../db/queries");
+const {getUsers} = require("../db/queries");
 
-exports.createUser = async(req, res) => {
+exports.getUsers = async(req, res) => {
     try {
-        const {username, first_name, last_name, primary_email, password, is_hero} = req.body;
-        const newUser = await createUser(username, first_name, last_name, primary_email, password, is_hero);
+        const allUsers = await getUsers();
 
-        res.json(newUser.rows[0]);
+
+        res.json(allUsers.rows);
     } catch(err) {
         console.error(err.message);
     }

@@ -1,16 +1,9 @@
 const pool = require('./database');
 
-const createUser = (username, first_name, last_name, primary_email, password, is_hero) => {
-    return pool.query('INSERT INTO customers  VALUES ($username, $first_name, $last_name, $primary_email, $password, $is_hero) RETURNING *', [
-        username,
-        first_name,
-        last_name,
-        primary_email,
-        password,
-        is_hero
-    ])
+const getUsers = () => {
+    return pool.query('SELECT * FROM customers')
 };
 
 module.exports = {
-    createUser,
+    getUsers,
 };
